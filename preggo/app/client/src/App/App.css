@@ -1,7 +1,20 @@
+
 body {
+  color: black;
+  padding: 40px;
+  font-family: Arial;
   text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  background-color: white;
+}
+
+#root {
+  background-image: url('/preggo/app/client/public/images/background.jpg');
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  z-index: -10;
 }
 
 .main-heading {
@@ -16,5 +29,4 @@ body {
 }
 .paragraph {
   font-size: 14px;
-  color: black;
 }
